@@ -1,0 +1,297 @@
+.main-container{
+  background-color:rgb(183, 159, 226);
+  padding-top:50px;
+  padding-bottom:100px;
+  
+  
+}
+#circle-design{
+  width:50px;
+  height:50px;
+  border-radius:30px;
+  margin-left:150px;
+  background-color: skyblue;
+  margin-top:10px;
+}
+
+.first-column{
+  
+  width:650px;
+  height:350px;
+  background-color: white;
+}
+
+#profile-pic{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:5px;
+  margin-left:8px;
+  width:50px;
+  height:50px;
+  border-radius:30px;
+}
+
+
+
+
+#full-name{
+  display:flex;
+  justify-content: flex-start;
+  margin-left:60px;
+  margin-top:-35px;
+}
+#first-column-line{
+  display: flex;
+  position: absolute;
+  margin-top:20px;
+  margin-left:30px;
+  width:90px;
+  background-color: rgb(139, 94, 222);
+  height:1px;
+  border-radius:25px;
+}
+
+#calendar-icon{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:40px;
+  margin-left:20px;
+  background:transparent;
+  border:none;
+
+}
+#calendar-icon:hover{
+  cursor: pointer;
+  transform:translateY(-20%);
+
+}
+
+
+#daily-tasks{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:-22px;
+  margin-left:60px;
+}
+.various-tasks{
+  display: flex;
+  flex-direction:column;
+  margin-left:40px;
+  font-size: 13px;
+  color:grey;
+}
+#tasks1{
+ color:pink;
+ font-size:20px;
+}
+#tasks2{
+  color:rgb(90, 150, 227);
+  font-size:20px;
+ }
+#tasks3{
+  color:rgb(239, 195, 74);
+  font-size:20px;
+ }
+#tasks4{
+  color:grey;
+  font-size: 20px;
+} 
+
+#tasks11{
+  color:grey;
+  font-size:12px;
+  display: flex;
+  justify-content: flex-start;
+}
+#scheduled-tasks{
+  display: flex;
+  justify-content: flex-start;
+  margin-left:20px;
+  background: transparent;
+  border: none;
+
+}
+#scheduled-tasks:hover{
+  cursor: pointer;
+  transform:translateY(-20%);
+  
+}
+#scheduled-text{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:-22px;
+  margin-left:60px;
+}
+
+#settings-icon{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:25px;
+  margin-left:20px;
+  background:transparent;
+  border: none;
+}
+#settings-icon:hover{
+  cursor: pointer;
+  transform: translateY(-20%);
+}
+
+#setting-text{
+  display: flex;
+  justify-content: flex-start;
+  margin-top:-22px;
+  margin-left:60px;
+}
+
+/* SECOND COLUMN */
+.second-column{
+  
+  display: flex;
+  flex-direction: column;
+  width:470px;
+  height:340px;
+  position: relative;
+  margin-left:176px;
+  margin-top:-345px;
+  background-color: rgb(183, 159, 226);
+  
+}
+
+#circle1{
+  border-radius:12px;
+  width:10px;
+  height:10px;
+  background-color:pink;
+  border:none;
+  display:flex;
+  float:left;
+  margin-right:8px;
+  margin-left:3px;
+}
+#circle1:hover{
+  cursor: pointer;
+  transform: translateY(-20%);
+}
+#circle2:hover{
+  cursor: pointer;
+  transform: translateY(-20%);
+}
+#circle3:hover{
+  cursor: pointer;
+  transform: translateY(-20%);
+}
+
+#circle2{
+  border-radius:12px;
+  width:10px;
+  height:10px;
+  background-color:rgb(90, 150, 227);
+  border:none;
+  display:flex;
+  float:left;
+  margin-right:8px;
+
+}
+
+#circle3{
+  border-radius:12px;
+  width:10px;
+  height:10px;
+  background-color:rgb(239, 195, 74);
+  border:none;
+  display:flex;
+  float:left;
+  
+}
+.button123{
+  position: absolute;
+  margin-top:107px;
+  margin-left:60px;
+}
+#setup-tasks{
+  width:250px;
+  padding-left:60px;
+  border-radius:13px;
+  height:30px;
+  font-size:9px;
+  
+}
+#first-header{
+  display: flex;
+  justify-content: flex-start;
+  margin-left:70px;
+  color:rgb(240, 238, 238);
+  font-size: 20px;
+}
+
+#second-header{
+  display:flex;
+  justify-content: flex-start;
+  margin-left:70px;
+  margin-top:-20px;
+  font-size: 20px;
+  font-weight:bold;
+  color:rgb(244, 241, 241);
+}
+
+#input-icons1{
+  background:transparent;
+  border:none;
+
+
+  margin-left:-50px;
+  margin-top:9px;
+  position:absolute
+  
+  
+}
+#input-icons2{
+  background:transparent;
+  border:none;
+  margin-left:-30px;
+  margin-top:9px;
+  position:absolute
+}
+#input-icons1:hover{
+  cursor: pointer;
+  transform:translateY(-20%);
+}
+#input-icons2:hover{
+  cursor: pointer;
+  transform:translateY(-20%);
+}
+
+#add-button{
+  position: relative;
+  margin-left:10px;
+}
+
+#display{
+  border:1px solid;
+}
+
+#display-list{
+
+  display: flex;
+  list-style-type: none;
+  border-radius:30px;
+  margin-bottom:10px;
+  width:250px;
+  margin-left:30px;
+  padding-left:20px;
+  height:25px;
+  background:white;
+  color:grey;
+  font-size:12px;
+  align-items: center;
+
+}
+#delete-icon{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left:220px;
+  background:transparent;
+  border:none;
+  position: fixed;
+}
