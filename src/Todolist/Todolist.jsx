@@ -133,20 +133,22 @@ const changeDirection = () => {
           </div>
           <div className="displayscreen">
             <ul>
-{/* 
-            To render each item, the items state is mapped using the map method. For each item in the items array, a <li> element is created.
-            The style prop is used to apply the item.border value as the inline CSS border property for each list item. This applies the desired border style based on the item object's border property.
-            The key prop is set to item.id, which ensures a unique identifier for each list item and helps React efficiently update the DOM when the list changes. */}
-
-              {items.map(item => (
+            {items.map(item => (
                 <li key={item.id} style={{ border: item.border }} id="display-list">
                   {item.value}
-                  <button onClick={() => deleteItem(item.id)} id="delete-icon">
+                  <button onCl
+                  ick={() => deleteItem(item.id)} id="delete-icon">
                     <AiFillDelete />
                   </button>
                 </li>
               ))}
             </ul>
+{/* 
+            To render each item, the items state is mapped using the map method. For each item in the items array, a <li> element is created.
+            The style prop is used to apply the item.border value as the inline CSS border property for each list item. This applies the desired border style based on the item object's border property.
+            The key prop is set to item.id, which ensures a unique identifier for each list item and helps React efficiently update the DOM when the list changes. */}
+
+            
           </div>
         </div>
       </fieldset>
