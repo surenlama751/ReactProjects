@@ -154,6 +154,7 @@
   margin-left:176px;
   margin-top:-345px;
   background-color: rgb(183, 159, 226);
+  overflow-y: scroll;
   
 }
 
@@ -293,5 +294,5 @@
   margin-left:220px;
   background:transparent;
   border:none;
-  position: fixed;
+  position: absolute;
 }
